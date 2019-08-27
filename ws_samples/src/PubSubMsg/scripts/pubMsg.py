@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import rospy
-from pack04.msg import msg1
+from PubSubMsg.msg import msg1
 
 def talkerMsg():
     pub1 = rospy.Publisher('chatterMsg', msg1, queue_size=10)

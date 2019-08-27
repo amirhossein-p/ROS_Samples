@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import rospy
-from pack04.msg import msg1
+from PubSubMsg.msg import msg1
 
 def callbackMsg(data):
     # rospy.loginfo('Data is: %f', data.part_number)
